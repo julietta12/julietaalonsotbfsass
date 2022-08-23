@@ -1,0 +1,112 @@
+/*variable*/
+
+$rojotbf: firebrick;
+
+/*ESTILOS GENERALES*/
+
+/*IMPORTADOS*/
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Staatliches&display=swap');
+@-webkit-keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
+@keyframes slide-fwd-center{0%{transform:translateZ(0)}100%{transform:translateZ(160px)}}
+
+/* ESTILOS BODY */
+body{
+    font-family: 'Staatliches', cursive;
+    background: #e65c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F9D423, #e65c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F9D423, #e65c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         
+}
+
+
+/* ESTILOS HEADER */
+h1{ 
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    border: groove 2px white;
+    border-radius: 3px;
+    }
+
+ 
+
+
+/* ESTILOS MAIN */
+
+/*
+nav{
+    width: 100%;
+    background-color: orange;
+    font-size: larger;
+    text-align: center;
+    font-weight:lighter;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+ul li{
+    width:200px;
+    margin: 10px;
+    padding: 15px;
+    border: 5px white;
+    background-color: white;
+    list-style: none;
+   }
+   */
+h2{
+   font-family: 'Staatliches', cursive;
+   color:white;
+   font-size: 3.5rem;
+   text-align: center;
+   text-decoration: underline;
+}
+
+h3 {
+    padding: 20px;
+    font-size: 2rem;
+    font-family: 'Staatliches', cursive;
+    background-color: $rojotbf;
+    color: rgba(255, 255, 0, 0.71);
+    text-align: center;
+}
+
+form{
+    color: beige;
+    border: inset 2px $rojotbf;
+    background-color: $rojotbf;
+    font-size: 1rem;
+    border-radius: 3px;
+
+}
+
+/* ESTILOS FOOTER */
+/*
+footer{
+    color: beige;
+    padding: 30px;
+}
+*/
+/*ID*/
+
+
+#uno{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+#dos{
+    width: 450px;
+    height: 460px;
+}
+
+
+/*Clases*/
+
+.image-burguer{
+    width:700px;
+}
+
